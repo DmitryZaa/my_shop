@@ -1,0 +1,50 @@
+﻿.wrapper {
+	text-align: center;
+	font: 16px bold Arial;
+}
+#results {
+	position: absolute;
+	top:5px;
+	left:3px;
+}
+#results div:hover{
+	outline: #ff0000 solid 2px;
+	background-color: #fcd127;
+}
+#results div{
+	border-bottom: 1px solid #ccc;
+}
+#results div span {
+	margin-left:2px;
+}
+#game_field {
+	position: relative;
+	margin: auto;
+	width: 700px;
+	height: 700px;
+	border: #000 solid 1px;
+	background-image: url(/images/bgg.jpg);
+	overflow: hidden;
+}
+#snake {
+	background-image: url(/images/snBG.png);
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 200;
+}
+.food {
+	height: 30px;
+	position: absolute;
+	z-index: 800;
+}
+.snake_body {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 150;
+}
+#head_info div h1 span {
+	color:red;
+}
