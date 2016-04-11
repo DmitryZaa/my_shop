@@ -40,7 +40,6 @@ $subject = $_POST['subject'];
 $body_letter = $_POST['body_letter'];
 //echo $addres . $subject . $body_letter;
 $filename = array();
-$filepath = array();
 foreach($_FILES['user_files']['name'] as $k=>$f) {
   if (!$_FILES['user_files']['error'][$k]) {
     if (is_uploaded_file($_FILES['user_files']['tmp_name'][$k])) {
